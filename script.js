@@ -11,4 +11,4 @@ function animarScroll(){
         document.addEventListener("DOMContentLoaded",
              animarScroll);
         window.addEventListener('scroll', animarScroll);
-
+        
