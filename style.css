@@ -285,7 +285,7 @@ section{
         margin:0 auto;
     }
     body::before{
-        background:rgba(0,0,0,0.25);
+        background:rgba(0,0,0,0.15);
     }
 }
 .hero.fade-in{
@@ -308,4 +308,10 @@ body::before{
     height:100%;
     background:rgba(0,0,0,0.4);
     z-index:0;
+}
+header,
+section,
+footer{
+    position:relative;
+    z-index:1;
 }
