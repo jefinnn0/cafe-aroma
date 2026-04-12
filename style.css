@@ -1,0 +1,295 @@
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+body.inicio{
+    background-image:url(img/darius-anton-coffee-01.gif);
+}
+body.cardapio{
+    background-image:url(img/tumblr_6d99b72021a1854e5cd31c8925cf3e1d_2e573049_1280.gif);
+}
+body.contato{
+    background-image:url(img/211265.gif);
+}
+body::before{
+    content:"";
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.5);
+    z-index:-1;
+}
+header{
+    text-align:center;
+    padding:20px;
+    color:white;
+}
+header h1{
+    font-size:45px;
+    margin-bottom:10px;
+}
+nav a{
+    color:white;
+    margin:10px;
+    text-decoration:none;
+    transition:0.3s;
+}
+nav a:hover{
+    color:#c59d5f;
+    text-decoration:underline;
+}
+.hero{
+    text-align:center;
+    padding:80px 20px;
+    color:white;
+
+}
+#cardapio{
+    color:white;
+    padding:40px 20px;
+    text-align:center;
+    margin:20px;
+    border-radius:10px;
+}
+#cardapio div{
+    margin:20px;
+}
+#contato{
+    padding:50px;
+    text-align:center;
+    color:white;
+    margin:20px;
+    border-radius:10px;
+}
+.sobre{
+    color:white;
+    text-align:center;
+    padding:50px 25px;
+    background-color:rgba(0,0,0,0.4);
+    margin:10px 20px;
+    border-radius:10px;
+}
+footer{
+    margin-top:40px;
+    text-align:center;
+    padding:25px;
+    color:white;
+    font-size:14px;
+}
+header h1{
+    font-size:43px;
+    margin-bottom:10px;
+}
+h2{
+    font-size:31px;
+    margin:20px 0;
+}
+.hero h2{
+    margin:25px 0 15px 0;
+    margin-top:30px;
+    margin-bottom:20px;
+}
+p{
+    font-size:19px;
+    line-height:1.6;
+}
+.hero p{
+    margin-bottom:30px;
+}
+nav a{
+    font-size:19px;
+}
+h1, h2{
+    letter-spacing:2px;
+}
+.contato-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:35px;
+    padding:60px 20px;
+}
+.contato-box{
+    background-color:rgba(0,0,0,0.5);
+    color:white;
+    padding:30px;
+    border-radius:10px;
+    text-align:center;
+    width:300px;
+}
+.form-box{
+    background-color:rgba(0,0,0,0.5);
+    color:white;
+    padding:30px;
+    border-radius:10px;
+    text-align:center;
+    width:300px;
+}
+.form-box input,
+.form-box textarea{
+    width:100%;
+    margin:10px 0;
+    padding:10px;
+    border:none;
+    border-radius:5px;
+}
+.form-box button{
+    padding:10px 20px;
+    border:none;
+    border-radius:5px;
+    background-color:#c59d5f;
+    color:white;
+    cursor:pointer;
+    transition:0.3s;
+}
+.form-box button:hover{
+    background-color:#a67c3d;
+}
+.sobre p{
+    white-space:pre-line;
+}
+.fade-in{ 
+    opacity:0;
+    transform:translateY(30px);
+    transition:all 1s ease;
+}
+.fade-in.ativo{
+    opacity:1;
+    transform:translateY(0);
+} 
+.cards{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:25px;
+}
+.card{
+    background-color:rgba(0,0,0,0.5);
+    color:white;
+    padding:25px;
+    border-radius:10px;
+    width:220px;
+    text-align:center;
+    transition:0.3s;
+}
+.card:hover{
+    transform:translateY(-10px);
+    background-color:rgba(0,0,0,0.7);
+}
+.card h3{
+    font-size:20px;
+    margin-bottom:10px;
+}
+.card p{
+    font-weight:bold;
+    color:#c59d5f;
+}
+body.cardapio{
+    background-image:url(img/tumblr_6d99b72021a1854e5cd31c8925cf3e1d_2e573049_1280.gif);
+}
+body.contato{
+    background-image:url(img/211265.gif);
+}
+.logo-img{
+    width:40px;
+    height:40px;
+}
+.logo-grande{
+    width:80px;
+    margin-bottom:10px;
+}
+.cardapio-img{
+    width:80px;
+    display:block;
+    margin:20px auto 10px auto;
+}
+.logo-grande.fade-in{
+    animation-delay:0.2s;
+}
+*{
+    will-change:transform;
+}
+.titulo{
+    font-family:"Jersey 15", sans-serif;
+}
+.subtitulo{
+    font-family:"Jersey 15", cursive;=
+}
+h1, h2, h3{
+    font-family:"Jersey 10", sans-serif;
+}
+p{
+    font-family:"Jersey 15", cursive;
+}
+body{
+    font-family:"Jersey 15", cursive;
+}
+section{
+    margin:40px 20px;
+}
+@media(max-width:600px){
+    body{
+        background-size:cover;
+        background-position:center;
+        background-attachment:scroll;
+    }
+    .cards{
+        flex-direction:column;
+        align-items:center;
+    }
+    header h1{
+        font-size:28px;
+    }
+    nav a{
+        font-size:16px;
+        display:block;
+        margin:5px 0;
+    }
+    .hero{
+        min-height:100vh;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+    }
+    .hero h2{
+        font-size:24px;
+    }
+    .hero p{
+        font-size:16px;
+    }
+    .sobre{
+        padding:30px 15px;
+    }
+    h2{
+        font-size:22px;
+    }
+    p{
+        font-size:15px;
+    }
+    .card{
+        width:90%
+    }
+    .contato-box,
+    .form-box{
+        width:90%
+    }
+    .logo-grande{
+        width:60px;
+    }
+}
+body{
+    background-attachment:fixed;
+}
+body{
+    background-size:cover;
+    background-position:center;
+}
+.hero.fade-in{
+    opacity:1;
+    transform:translateY(0);
+}
