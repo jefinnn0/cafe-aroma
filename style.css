@@ -297,10 +297,6 @@ section{
         margin:0 auto;
     }
 }
-body{
-    background-size:cover;
-    background-position:center;
-}
 .hero.fade-in{
     opacity:1;
     transform:translateY(0);
