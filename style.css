@@ -296,3 +296,6 @@ body.contato{
     background-position:center;
     background-attachment:fixed;
 }
+body::before{
+    z-index:-1;
+}
