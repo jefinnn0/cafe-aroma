@@ -3,7 +3,7 @@ function animarScroll(){
             elementos.forEach((el) => {
                 const topo = el.getBoundingClientRect().top;
                 const alturaTela = window.innerHeight;
-                if(topo < alturaTela - 100) {
+                if(topo < alturaTela - 50) {
                     el.classList.add('ativo');
                 }
             }); 
