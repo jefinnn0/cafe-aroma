@@ -251,7 +251,7 @@ section{
         margin:5px 0;
     }
     .hero{
-        min-height:60vh;
+        min-height:50vh;
         display:flex;
         flex-direction:column;
         justify-content:center;
