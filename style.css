@@ -229,13 +229,13 @@ section{
         background-attachment:scroll;
     }
     body.inicio{
-        background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(img/1703736772973.gif);
+        background-image: url(img/1703736772973.gif);
     }
     body.cardapio{
-        background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(img/09c2d5d856012ed19290c8d340e619e4.gif);
+        background-image: url(img/09c2d5d856012ed19290c8d340e619e4.gif);
     }
     body.contato{
-        background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(img/3a7bda163b42122cec8497e44ce3f9dd.gif);
+        background-image: url(img/3a7bda163b42122cec8497e44ce3f9dd.gif);
     }
     .cards{
         flex-direction:column;
@@ -283,9 +283,6 @@ section{
         width:60px;
         display:block;
         margin:0 auto;
-    }
-    body::before{
-        background:rgba(0,0,0,0.2);
     }
 }
 .hero.fade-in{
