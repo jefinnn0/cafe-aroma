@@ -284,6 +284,9 @@ section{
         display:block;
         margin:0 auto;
     }
+    body::before{
+        background:rgba(0,0,0,0.25);
+    }
 }
 .hero.fade-in{
     opacity:1;
