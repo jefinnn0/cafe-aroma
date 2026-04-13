@@ -297,7 +297,7 @@ body.cardapio,
 body.contato{
     background-size:cover;
     background-position:center;
-    background-attachment:fixed;
+    background-attachment:scroll;
 }
 body::before{
     content:"";
