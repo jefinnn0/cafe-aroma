@@ -315,11 +315,11 @@ footer{
     z-index:1;
 }
 body.inicio::before{
-    background:rgba(0,0,0,0.4);
+    background:rgba(0,0,0,0.3);
 }
 body.cardapio::before{
-    background:rgba(0,0,0,0.45);
+    background:rgba(0,0,0,0.55);
 }
 body.contato::before{
-    background:rgba(0,0,0,0.40)
+    background:rgba(0,0,0,0.51)
 }
