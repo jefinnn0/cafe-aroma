@@ -32,12 +32,20 @@
             <h2>
                 Fale conosco por aqui
             </h2>
-            <input type="text" placeholder="Seu nome">
-            <input type="email" placeholder="Seu email">
-            <textarea placeholder="Sua mensagem"></textarea>
-            <button>
+            <input type="text" id="nome" placeholder="Seu nome">
+            <p class="erro" id="erro-nome"></p>
+            <input type="email" id="email" placeholder="Seu email">
+            <p class="erro" id="erro-email"></p>
+            <textarea id="mensagem" placeholder="Sua mensagem"></textarea>
+            <p class="erro" id="erro-mensagem"></p>
+            <button onclick="enviarMensagem()">
                 Enviar
             </button>
+            <p id="mensagem-sucesso"
+            style="display:none;">
+                Mensagem enviada com
+                sucesso!
+            </p>
         </div>
     </section>
     <footer>
