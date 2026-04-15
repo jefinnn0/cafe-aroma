@@ -45,8 +45,9 @@ function enviarMensagem(){
     if(mensagem.value.trim() === ""){
         erroMensagem.textContent = "Digite uma mensagem";
         mensagem.classList.add("erro-input");
-        valido = false;
-    if(valido){
+        valido = false;}
+    {
+     if(valido){
         sucesso.style.display = "block";
         setTimeout(() => {
             sucesso.style.opacity = "1";
@@ -57,5 +58,9 @@ function enviarMensagem(){
         email.value = "";
         mensagem.value = "";
     }
-}
-}
+
+}}
+document.addEventListener("DOMContentLoaded", () => {
+    const botao = document.getElementById("btn-enviar");
+    botao.addEventListener("click", enviarMensagem);
+});
