@@ -4,6 +4,7 @@ body{
     background-repeat:no-repeat;
     overflow:auto;
     background-color:black;
+    min-height:100vh;
 }
 body.inicio{
     background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/darius-anton-coffee-01.gif);
@@ -287,7 +288,8 @@ section{
         margin:0 auto;
     }
     body::before{
-        background:rgba(0,0,0,0.15);
+        position:absolute;
+        height:100%;
     }
 }
 .hero.fade-in{
