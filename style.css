@@ -287,6 +287,9 @@ section{
     body::before{
         background:rgba(0,0,0,0.15);
     }
+    html, body{
+        height:100%;
+    }
 }
 .hero.fade-in{
     opacity:1;
