@@ -2,7 +2,7 @@ body{
     font-family:"Jersey 15", cursive;
     margin:0;
     background-repeat:no-repeat;
-    overflow:visible;
+    overflow:scroll;
     background-color:black;
     min-height:100vh;
 }
