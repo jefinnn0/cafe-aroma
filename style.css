@@ -2,7 +2,6 @@ body{
     font-family:"Jersey 15", cursive;
     margin:0;
     background-repeat:no-repeat;
-    overflow:auto;
     background-color:black;
     min-height:100vh;
 }
@@ -237,7 +236,6 @@ body.contato{
     body.contato{
         background-size:cover;
         background-position:center;
-        background-repeat:no-repeat;
         background-attachment:fixed;
     }
     body.inicio{
@@ -322,13 +320,13 @@ footer{
     z-index:1;
 }
 body.inicio::before{
-    background:rgba(0,0,0,0.3);
+    background:rgba(0,0,0,0.4);
 }
 body.cardapio::before{
-    background:rgba(0,0,0,0.55);
+    background:rgba(0,0,0,0.56);
 }
 body.contato::before{
-    background:rgba(0,0,0,0.53)
+    background:rgba(0,0,0,0.65)
 }
 .erro{
     color:#ff4d4d;
