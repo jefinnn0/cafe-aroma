@@ -236,7 +236,7 @@ body.contato{
     body.cardapio,
     body.contato{
         background-size:cover;
-        background-position:center;
+        background-position:center top;
         background-attachment:scroll;
     }
     body.inicio{
